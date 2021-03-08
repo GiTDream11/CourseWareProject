@@ -51,6 +51,7 @@ body {
     padding: 0.25rem;
     font-weight: bold;
 }
+
 .accordion-body {
     display: flex;
     flex: row;
@@ -63,3 +64,4 @@ body {
     margin: 0 0.5rem;
     padding: 1rem;
 }
+
