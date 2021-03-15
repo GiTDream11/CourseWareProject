@@ -1,0 +1,11 @@
+.overview-container {
+    text-align: center;
+    padding: 5rem;
+}
+
+section {
+    margin: 5rem auto;
+    padding: 1rem;
+    background-color: #EEE;
+    border-radius: 1rem;
+}
