@@ -31,31 +31,6 @@ export function TopicAccordionItem(props) {
                     </Card.Body>
                 </Accordion.Collapse>
         </Card>
-
-        // <div className="accordion-item">
-        //     <h1 className="accordion-header">
-        //         <button 
-        //         className="accordion-button" 
-        //         type="button" data-bs-toggle="collapse"
-        //         data-bs-target={"#" + id}>
-        //                 {topic}
-        //         </button>
-        //     </h1>
-        //     <div id={id}
-        //     className="accordion-collapse collapse">
-        //         <div className="accordion-body">
-        //             {activities.map(activity => {
-        //                 return (
-        //                     <a>
-        //                         <div className="activity-link">
-        //                             {activity}
-        //                         </div>
-        //                     </a>
-        //                 )
-        //             })}
-        //         </div>
-        //     </div>
-        // </div>
     )
 
     

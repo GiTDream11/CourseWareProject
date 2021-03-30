@@ -9,7 +9,7 @@ export const topics = [
     'Inheritance',
     'Polymorphism',
     'Abstract Classes and Inheritance',
-    'Exception Handlin',
+    'Exception Handling',
     'Input/Output',
     'Recursion',
     'Data Structures',
