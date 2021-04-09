@@ -2,6 +2,7 @@ import React from 'react';
 import { activities } from './data/activities';
 import Accordion from 'react-bootstrap/Accordion';
 import Card from 'react-bootstrap/Card';
+import { Link } from "react-router-dom";
 
 
 
@@ -20,11 +21,11 @@ export function TopicAccordionItem(props) {
                     <Card.Body>
                         {activities.map(activity => {
                             return (
-                                <a>
+                                <Link to={"/" + activity.url + "/" + topic}>
                                     <div className="activity-link">
-                                        {activity}
+                                        {activity.Title}
                                     </div>
-                                </a>
+                                </Link>
                             )
                         })}
 

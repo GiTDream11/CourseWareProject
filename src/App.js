@@ -40,7 +40,7 @@ function App() {
         <Route path="/test">
           <Test />
         </Route>
-        <Route path="/multichoice">
+        <Route path="/multichoice/:id">
           <MultiChoice />
         </Route>
         <Route path="/mainconcept">

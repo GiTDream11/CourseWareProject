@@ -17,7 +17,7 @@ export const mcQuestions = {
             'answer': 'b'
         },
         {
-            'question': 'What is the error in the code given below\n\tSystem.out.println(\"hellow world!\")',
+            'question': 'What is the error in the code given below\n\tSystem.out.println("hello world!")',
             'a' : 'Syntax: missing semicolon',
             'b' : 'Logical: no uppercase',
             'c' : 'Runtime',
@@ -33,7 +33,7 @@ export const mcQuestions = {
             'answer': 'c'
         },
         {
-            'question' : 'What is the output of the following\nPublic static void main(String[]args)\n{\n\tSystem.out.println(\"j\" + \"a\" + \"v\" + \"a\");\n}',
+            'question' : 'What is the output of the following\nPublic static void main(String[]args)\n{\n\tSystem.out.println("j" + "a" + "v" + "a");\n}',
             'a' : 'java',
             'b' : 'JAVA',
             'c' : 'Error',

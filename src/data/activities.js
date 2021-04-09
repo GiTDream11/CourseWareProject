@@ -1,6 +1,18 @@
 export const activities = [
-    "Main Concepts",
-    "Multiple Choice",
-    "True or False",
-    "Coding Questions"
+    {
+        "Title": "Main Concepts",
+        "url" : "mainconcept"
+    },
+    {
+        "Title" : "Multiple Choice",
+        "url" : "multichoice"
+    },
+    {
+        "Title" : "True or False",
+        "url" : "truefalse"
+    },
+    {
+        "Title" : "Coding Questions",
+        "url" : "codingquestions"
+    }
 ];
