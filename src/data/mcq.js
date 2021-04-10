@@ -42,7 +42,88 @@ export const mcQuestions = {
         }
         
     ],
-    'Data Types': [],
+    'Data Types': [
+        {
+            'question': 'What is wrong in this code?\npublic static void main(String[] args) {\n    system.out.println("Welcome"+ "t" + "o Java");;\n}',
+            'a' : 'Extra semicolon',
+            'b' : "Concatenation doesn't work this way",
+            'c' : 'Misspelt String',
+            'd' : 'No error',
+            'answer': 'd'
+        },
+        {
+            'question': 'Which of the following is a valid Identifier?',
+            'a' : 'break',
+            'b' : '98hello',
+            'c' : 'iden$',
+            'd' : 'null',
+            'answer': 'c'
+        },
+        {
+            'question': 'What is the error in the code given below-\npublic static void main(String[] args) {\n    double iR= 10;\n    double sum= ir+50;\n}',
+            'a' : 'Variable is undeclared',
+            'b' : 'Logical Error',
+            'c' : "Haven't printed variable",
+            'd' : 'None of the above',
+            'answer': 'a'
+        },
+        {
+            'question': 'What is the output for the code given below-\nSystem.out.println("6: "+(6+9));',
+            'a' : '669',
+            'b' : '6:15',
+            'c' : '6:69',
+            'd' : '6:6+9',
+            'answer': 'b'
+        },
+        {
+            'question' : 'What is the output of the following-\npublic static void main(String[] args)\n{\n  System.out.print("ti:" + 9 + "3v3"+5 + 9);\n}',
+            'a' : 'ti:93v17',
+            'b' : 'ti:93v314',
+            'c' : 'ti:93v359',
+            'd' : 'ti:12v359',
+            'answer': 'c'
+        }
+        {
+            'question' : 'What must you import to use the scanner object?',
+            'a' : 'java.Util.Scanner'
+            'b' : 'java.util.Scanner'
+            'c' : 'Java.Util.Scanner',
+            'd' : 'java.util.scanner',
+            'answer': 'b'
+        }
+        {
+            'question' : 'Which of the following is a post decreement operator?',
+            'a' : 'var++;',
+            'b' : '--var;',
+            'c' : 'var--;',
+            'd' : '++var;()',
+            'answer': 'c'
+        }
+        {
+            'question' : 'What is the output of the following-\nint x = 6;\nSystem.out.print(++x);\nSystem.out.print(x);\nint y = 6;\nSystem.out.print(y+1);\nSystem.out.print(y);',
+            'a' : '7776',
+            'b' : '7777',
+            'c' : '6767',
+            'd' : '6667',
+            'answer': 'a'
+        }
+        {
+            'question' : 'What is the output of the following-\nint x = 7;\nSystem.out.println("value of x is %d" + x);',
+            'a' : 'value of x is %dx',
+            'b' : 'value of x is x',
+            'c' : 'value of x is 7',
+            'd' : 'value of 7 is 7',
+            'answer': 'c'
+        }
+        {
+            'question' : 'What is the output of the following-\n  double x = Math.floor(-2.3) + Math.ceil(1.01);\n  System.out.println(x);',
+            'a' : '-1.0',
+            'b' : '-2.0',
+            'c' : '1.0',
+            'd' : '0.0',
+            'answer': 'a'
+        }
+    ],
     'Selection Statements': [
         {
             'question': 'What is the symbol operator for 'NOT'?',
@@ -125,7 +206,88 @@ export const mcQuestions = {
             'answer': 'd'
         }
     ],
-    'Loops': [],
+    'Loops': [
+        {
+            'question': 'What is the idea behind a Sentinel-controlled loop?',
+            'a' : 'Not known how many iterations',
+            'b' : 'Counter is used',
+            'c' : 'It is a normal loop',
+            'd' : 'Infinite Loop',
+            'answer': 'a'
+        },
+        {
+            'question': 'Which type of loop executes atleast once even with a false statement?',
+            'a' : 'while',
+            'b' : 'for',
+            'c' : 'do...',
+            'd' : 'No loop has such feature',
+            'answer': 'c'
+        },
+        {
+            'question': 'Which statement is used to terminate a loop?',
+            'a' : 'return',
+            'b' : 'break',
+            'c' : 'yield',
+            'd' : 'continue',
+            'answer': 'b'
+        },
+        {
+            'question': 'A continue statement inside a loop causes the program to ___ the loop.',
+            'a' : 'Skip',
+            'b' : 'Exit',
+            'c' : 'Terminate',
+            'd' : 'Skip the present iteration and continue the next iteration',
+            'answer': 'd'
+        },
+        {
+            'question' : 'What is the output of the following code?\nint x = 1;\nwhile(x<5){\n      System.out.println(a+" ");\n      a++;\n}',
+            'a' : '1 2 3 4',
+            'b' : '1 2 3 4 5',
+            'c' : '1 2 3',
+            'd' : 'error',
+            'answer': 'a'
+        }
+        {
+            'question' : 'The enhanced for-loop was introduced by?',
+            'a' : 'JDK 4'
+            'b' : 'JDK 5'
+            'c' : 'JDK 6',
+            'd' : 'JDK 7',
+            'answer': 'b'
+        }
+        {
+            'question' : 'What is the output of the following code?\nint x=10;\ndo\ndo\n{\nSystem.out.print(x + ".");\nx++;\n}while(x < 14)',
+            'a' : '10.10.10',
+            'b' : '10.11.12',
+            'c' : '11.12.13',
+            'd' : 'Error',
+            'answer': 'd'
+        }
+        {
+            'question' : 'What is the output of the following code?\nfor(int i=1; i<5; i++)\n{\n    System.out.print(i +":");\n}',
+            'a' : '1:2:3:4',
+            'b' : '1:2:3:',
+            'c' : '1:2:3:4:5',
+            'd' : '12345',
+            'answer': 'a'
+        }
+        {
+            'question' : 'An enhanced for loop missed __ and __ than a regular for loop.',
+            'a' : 'Spped',
+            'b' : 'Initialization, Incre/Decrements',
+            'c' : 'Semicolons, Variables',
+            'd' : 'Easiness',
+            'answer': 'b'
+        }
+        {
+            'question' : 'What is the output of the following code?\nfor(int i=1; i<5; i++)\n    System.out.print(i +":");\n    System.out.print("hi");',
+            'a' : '1:hi2:hi3:hi4:hi',
+            'b' : 'hi1:hi2:hi3:hi4:',
+            'c' : '1:2:3:4hi',
+            'd' : '1:2:3:4:hi',
+            'answer': 'd'
+        }
+    ],
     'Methods': [
         {
             'question': 'What type of programming programmingis focuses on designing the software with an emphasis on separating the functionality into modules?',
@@ -744,7 +906,88 @@ export const mcQuestions = {
             'answer': 'd'
         }
     ],
-    'Data Structures': [],
+    'Data Structures': [
+        {
+            'question': 'Each element is contained in an object of a LinkedList called the _____.',
+            'a' : 'Node',
+            'b' : 'Object',
+            'c' : 'Apex',
+            'd' : 'Vertex',
+            'answer': 'a'
+        },
+        {
+            'question': 'LinkedList access elements using ______.',
+            'a' : 'It is done internally',
+            'b' : 'index',
+            'c' : 'Random Access',
+            'd' : 'Sequential Access',
+            'answer': 'd'
+        },
+        {
+            'question': 'ArrayList is always more efficient than LinkedList for the following operations (at all times).',
+            'a' : 'Insert/delete an element in the middle of the list.',
+            'b' : 'Insert/delete an element at the end of the list.',
+            'c' : "Retrieve an element given the index",
+            'd' : 'Insert/delete an element in the start of the list.',
+            'answer': 'c'
+        },
+        {
+            'question': 'A stack represents which kind of data structure?',
+            'a' : 'FILO',
+            'b' : 'LILO',
+            'c' : 'FIFO',
+            'd' : 'LIFO',
+            'answer': 'd'
+        },
+        {
+            'question' : 'A variable ______ refers to the first node.',
+            'a' : 'head',
+            'b' : 'start',
+            'c' : 'top',
+            'd' : 'first',
+            'answer': 'a'
+        }
+        {
+            'question' : 'The most efficient data structure is _____.',
+            'a' : 'structure'
+            'b' : 'class'
+            'c' : 'array',
+            'd' : 'arrayList',
+            'answer': 'c'
+        }
+        {
+            'question' : 'What is the time complexity of this code?\nfor (int i = 0; i < N; i++)\nlinkedlist.get(i);',
+            'a' : 'O(N)',
+            'b' : 'O(N^2)',
+            'c' : '0(1)',
+            'd' : 'O(N^3)',
+            'answer': 'b'
+        }
+        {
+            'question' : 'The ______ interface can be used to compare objects of a class, similar to the Comparable interface.',
+            'a' : 'compareObjects',
+            'b' : 'checkBetween',
+            'c' : 'Comparator',
+            'd' : 'Compare',
+            'answer': 'c'
+        }
+        {
+            'question' : 'A collection of elements stored using key/value pairs is called a _________.',
+            'a' : 'collection',
+            'b' : 'list',
+            'c' : 'map',
+            'd' : 'set',
+            'answer': 'c'
+        }
+        {
+            'question' : 'Which of the following is not a method in Collection?',
+            'a' : 'addEverything()',
+            'b' : 'add()',
+            'c' : 'addAll()',
+            'd' : 'contains()',
+            'answer': 'a'
+        }
+    ],
     'Sorting Algorithms:': [
         {
             'question': 'What is ignored in the notation symbol?',
