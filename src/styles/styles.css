@@ -1,6 +1,3 @@
-body {
-    /* background-color: #edeef7; */
-}
 
 .main-container {
     display: grid;
@@ -21,18 +18,37 @@ body {
     /* background-color: #8ED4F9; */
 }
 
-.right-container {
-    /* background-color: #8ED4F9; */
+.lq-title {
+    margin: 2rem;
 }
 
+.lq-container {
+    width: 80%;
+    margin: 2rem auto;
+    text-align: left;
+}
+
+.form-container {
+    padding: 5%;
+}
 
 .center-container {
     background-color: #F5F6FA;
+    padding: 5%;
 }
-
+.overview-container {
+    text-align: center;
+    margin: 0 auto;
+}
 .topic-container {
     display: flex;
     flex-direction: column;
+}
+
+.concept-container {
+    padding: 5%;
+    margin: 5rem auto;
+    text-align: left;
 }
 
 .topic {

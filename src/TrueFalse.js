@@ -4,14 +4,15 @@ import { useParams } from 'react-router-dom';
 import  Button from 'react-bootstrap/Button';
 
 // User-defined components
-import { mcQuestions } from './data/mcq';
+import { tfQuestions } from './data/tf';
 import './styles/multiChoice.css';
 
 
-export function MultiChoice () {
+export function TrueFalse () {
     const [currQuestionIndex, setCurrQuestionIndex] = useState(0);
     let { id } = useParams();
-    let topicQuestions = mcQuestions[id];
+    console.log(tfQuestions);
+    let topicQuestions = tfQuestions[id];
     let currentQuestion = topicQuestions[currQuestionIndex];
     console.log(topicQuestions);
 
@@ -36,13 +37,11 @@ export function MultiChoice () {
         }
 
         //prevent other options from being clicked
-        let buttons = document.querySelectorAll('.mcqOption');
+        let buttons = document.querySelectorAll('.tfOption');
         for(let i = 0; i < buttons.length; i++)
         {
             buttons[i].disabled = true;
         }
-        let nextButton = document.getElementById('nextQuestion');
-        nextButton.disabled = false;
 
     }
 
@@ -58,8 +57,6 @@ export function MultiChoice () {
             buttons[i].classList.add('btn-light');
             buttons[i].disabled = false;
         }
-        e.target.disabled = true;
-        
 
     }
 
@@ -67,12 +64,11 @@ export function MultiChoice () {
         <div className="form-container">
                 <div className="response-container">
                     <h6>{currentQuestion.question}</h6>
-                    <Button variant="light" className="mcqOption" value="a" onClick={handleClick}>{currentQuestion.a}</Button>
-                    <Button variant="light" className="mcqOption" value="b" onClick={handleClick}>{currentQuestion.b}</Button>
-                    <Button variant="light" className="mcqOption" value="c" onClick={handleClick}>{currentQuestion.c}</Button>
-                    <Button variant="light" className="mcqOption" value="d" onClick={handleClick}>{currentQuestion.d}</Button>
+                    <Button variant="light" className="tfOption" value="true" onClick={handleClick}>True</Button>
+                    <Button variant="light" className="tfOption" value="false" onClick={handleClick}>False</Button>
+                    
                 </div>
-                <Button variant="dark" id="nextQuestion" onClick={nextQuestion}>Next Question</Button>
+                <Button variant="dark" className="nextQuestion" onClick={nextQuestion}>Next Question</Button>
         </div>
     )
 }

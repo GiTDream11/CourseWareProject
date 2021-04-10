@@ -17,7 +17,48 @@ export const tfQuestions = {
             'answer': 'true'
         }
     ],
-    'Data Types': [],
+    'Data Types': [
+        {
+            'question': 'Is "hello_123" a valid Identifier?',
+            'answer': 'true'
+        },
+        {
+            'question': 'Java is case-sensitive.',
+            'answer': 'true'
+        },
+        {
+            'question' : 'A compilation error would occur if the literal were too large for the variable to hold.',
+            'answer': 'true'
+        },
+        {
+            'question': 'Floating-point literals cannot be specified in scientific notation.',
+            'answer': 'false'
+        },
+        {
+            'question' : 'To read a double from a scanner object "input", you would call: input.nextDouble()',
+            'answer': 'true'
+        },
+        {
+            'question': 'The keyword to make a variable constant is constant.',
+            'answer': 'false'
+        },
+        {
+            'question': 'The Math.pow(a,b) is used to calculate a^b.',
+            'answer': 'true'
+        },
+        {
+            'question': 'We use the System.out.printf method to display formatted output on the console.',
+            'answer': 'true'
+        },
+        {
+            'question' : 'PI and E are the two double contsants in the Math class.',
+            'answer': 'true'
+        },
+        {
+            'question' : 'There is a particular length size of an identifier.',
+            'answer': 'false'
+        }
+    ],
     'Selection Statements': [
         {
             'question': 'What is the boolean value-\n  int y = 5, x =10;\n  boolean b = (y>x);',
@@ -30,7 +71,7 @@ export const tfQuestions = {
         {
             'question' : 'Boolean expressions are evaluated either True or False using relational operators.',
             'answer': 'true'
-        }
+        },
         {
             'question': 'What is the boolean value-\n  int y = 15, x =50;\n  boolean b = ((y>30)&&(x>10)) ;',
             'answer': 'false'
@@ -38,7 +79,7 @@ export const tfQuestions = {
         {
             'question' : 'yield acts as a return and a break statement.',
             'answer': 'true'
-        }
+        },
         {
             'question': 'The dangling else is a problem in computer programming in which an optional else clause in an if–then statement results in nested conditionals being ambiguous.',
             'answer': 'True'
@@ -54,13 +95,13 @@ export const tfQuestions = {
         {
             'question' : 'What is the value of: (true) && 9 > 1',
             'answer': 'false'
-        }
+        },
         {
             'question' : 'Parentheses is always evaluated first.',
             'answer': 'true'
         }
     ],
-    'Loops': [
+    'Loops' : [
         {
             'question': 'We initialize the counter before declaring the loop in a while loop',
             'answer': 'true'
@@ -72,7 +113,7 @@ export const tfQuestions = {
         {
             'question' : 'The difference between a while and a do...while is that a do...while loop executes once even if it is false.',
             'answer': 'true'
-        }
+        },
         {
             'question': 'Repetition will exit after running a certain number of time in a counter controlled loop.',
             'answer': 'true'
@@ -80,7 +121,7 @@ export const tfQuestions = {
         {
             'question' : 'Adding a semicolon at the end of a for loop parenthesis is a logical error.',
             'answer': 'true'
-        }
+        },
         {
             'question': 'The syntax for the foor loop is:\n   for (loop-continuation-condition,initial-\naction,action-after-each-iteration)\n   {\n       statement(s);\n   }',
             'answer': 'false'
@@ -96,7 +137,7 @@ export const tfQuestions = {
         {
             'question' : 'We cannot use nested loops.',
             'answer': 'false'
-        }
+        },
         {
             'question' : 'If the control variable is not modified, we get an infinite loop.',
             'answer': 'true'
@@ -114,7 +155,7 @@ export const tfQuestions = {
         {
             'question' : 'The scope of the variable is the part of the program that the variable can be referenced.',
             'answer': 'true'
-        }
+        },
         {
             'question': 'Ambiguous invocation causes a run-time error.',
             'answer': 'false'
@@ -122,7 +163,7 @@ export const tfQuestions = {
         {
             'question' : '“Divide and conquer ” strategy is also known as "stepwise refinement"',
             'answer': 'true'
-        }
+        },
         {
             'question': 'The method header specifies the modifiers, return value type, method name, and parameters of the method.',
             'answer': 'true'
@@ -138,13 +179,12 @@ export const tfQuestions = {
         {
             'question' : 'One need not provide the arguments in the same order as their respective parameters in the method signature',
             'answer': 'false'
-        }
+        },
         {
             'question' : 'When you invoke a method with an argument, the value of the argument is passed to the parameter called pass-by-value',
             'answer': 'true'
         }
     ],
-    'Loops': [],
     'Arrays': [
         {
             'question': 'When you declare a variable to reference an array, it just creates a pointer, there is no object yet.',
@@ -157,7 +197,7 @@ export const tfQuestions = {
         {
             'question' : 'Arrays have only one dimension',
             'answer': 'false'
-        }
+        },
         {
             'question': 'for-each loops enable you to traverse the complete array sequentially by using an index variable.',
             'answer': 'false'
@@ -165,7 +205,7 @@ export const tfQuestions = {
         {
             'question' : 'When an array is created, its elements are assigned default values.',
             'answer': 'true'
-        }
+        },
         {
             'question': 'Is this code valid?/ndouble[] myList;\nmyList= {2, 5, 3.4, 3.5};',
             'answer': 'false'
@@ -181,7 +221,7 @@ export const tfQuestions = {
         {
             'question' : 'An array can be declared without initialization without declaring the size.',
             'answer': 'true'
-        }
+        },
         {
             'question' : 'We can skip initializing some elements of the array during Shorthand Initialization.',
             'answer': 'false'
@@ -199,7 +239,7 @@ export const tfQuestions = {
         {
             'question' : 'UML is a method for representing and communicating a model of the software being developed.',
             'answer': 'true'
-        }
+        },
         {
             'question': 'This is used outside a method or a constructor to refer to the another object.',
             'answer': 'false'
@@ -207,7 +247,7 @@ export const tfQuestions = {
         {
             'question' : 'Static variables are shared by all the instances of the class.',
             'answer': 'true'
-        }
+        },
         {
             'question': 'Static methods carry out a specific function.',
             'answer': 'false'
@@ -223,7 +263,7 @@ export const tfQuestions = {
         {
             'question' : 'Access Modifiers control the levels of access to class members in java',
             'answer': 'true'
-        }
+        },
         {
             'question' : 'A class is a template of a group of attributes and behaviours.',
             'answer': 'true'
@@ -241,7 +281,7 @@ export const tfQuestions = {
         {
             'question' : 'When you inherit class members, you cannot add new ones.',
             'answer': 'false'
-        }
+        },
         {
             'question': 'The keyword super refers to the superclass of the class in which super keyword appears.',
             'answer': 'true'
@@ -249,7 +289,7 @@ export const tfQuestions = {
         {
             'question' : 'Overriding occurs when you implement a method of same name and return type in both parent and child class.',
             'answer': 'true'
-        }
+        },
         {
             'question': 'A subclass can weaken the accessibility of a method defined in the superclass.',
             'answer': 'false'
@@ -265,7 +305,7 @@ export const tfQuestions = {
         {
             'question' : 'Constructor chaining is a process of constructing an instance of a class invokes all the superclasses’ constructors along the inheritance chain.',
             'answer': 'true'
-        }
+        },
         {
             'question' : 'One must use Inheritance when there is an IS-A relationship.',
             'answer': 'true'
@@ -283,7 +323,7 @@ export const tfQuestions = {
         {
             'question' : 'Every instance of a superclass is also an instance of its subclass.',
             'answer': 'false'
-        }
+        },
         {
             'question': 'A reference variable of a supertype can refer to any of its subtype objects.',
             'answer': 'true'
@@ -309,7 +349,7 @@ export const tfQuestions = {
         {
             'question' : 'You cannot create objects of an abstract class.',
             'answer': 'true'
-        }
+        },
         {
             'question' : 'We use an interfave when we have a weak is-a relationship.',
             'answer': 'true'
@@ -331,7 +371,7 @@ export const tfQuestions = {
         {
             'question' : 'Which exception is thrown by read() method?',
             'answer': 'false'
-        }
+        },
         {
             'question' : 'When a catch and finally block both return a value, the value returned is that from the finally block.',
             'answer': 'true'
@@ -349,7 +389,7 @@ export const tfQuestions = {
         {
             'question' : 'The Files class provides an abstraction that deals with most of the machine dependent complexities of files and path names.',
             'answer': 'false'
-        }
+        },
         {
             'question': 'Is this piece of code valid?\nURL url = new URL("http://www.google.ca//html”);',
             'answer': 'true'
@@ -357,7 +397,7 @@ export const tfQuestions = {
         {
             'question' : 'Stream chaining is a way of connecting several stream classes together to get the data in the form required.',
             'answer': 'true'
-        }
+        },
         {
             'question': 'The transient keyword is used for fields so that the JVM ignores them when sending the object to the output stream.',
             'answer': 'true'
@@ -373,7 +413,7 @@ export const tfQuestions = {
         {
             'question' : 'Access Modifiers control the levels of access to class members in java',
             'answer': 'true'
-        }
+        },
         {
             'question' : 'The available() method is not a very efficient method.',
             'answer': 'true'
@@ -395,11 +435,11 @@ export const tfQuestions = {
         {
             'question' : 'A recursive function need not have a stopping condition.',
             'answer': 'false'
-        }
+        },
         {
             'question' : 'A non-tail recursive method can often be converted to a tail recursive method.',
             'answer': 'true'
-        }
+        },
     ],
     'Data Structures': [
         {
@@ -417,7 +457,7 @@ export const tfQuestions = {
         {
             'question' : 'In priority queues, an iterator or (a for-each loop) is not guaranteed to traverse the elements in any particular order.',
             'answer': 'true'
-        }
+        },
         {
             'question' : 'If a node doesn’t have a memory address, it is considered deleted as it goes to the heap.',
             'answer': 'true'
@@ -439,7 +479,7 @@ export const tfQuestions = {
         {
             'question' : 'Insertion sort is efficient for large arrays.',
             'answer': 'false'
-        }
+        },
         {
             'question' : 'Radix sort is a general-purpose sorting algorithm',
             'answer': 'true'

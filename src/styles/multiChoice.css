@@ -3,7 +3,7 @@
     flex-direction: column;
 }
 
-.mcqOption {
+.mcqOption, .tfOption {
     height: 4rem;
     margin: 0.5rem;
     border: none;
@@ -16,7 +16,3 @@
     text-align: center;
 }
 
-.form-container {
-    width: 60%;
-    margin: 0 auto;
-}

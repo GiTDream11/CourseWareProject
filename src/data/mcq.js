@@ -82,15 +82,15 @@ export const mcQuestions = {
             'c' : 'ti:93v359',
             'd' : 'ti:12v359',
             'answer': 'c'
-        }
+        },
         {
             'question' : 'What must you import to use the scanner object?',
-            'a' : 'java.Util.Scanner'
-            'b' : 'java.util.Scanner'
+            'a' : 'java.Util.Scanner',
+            'b' : 'java.util.Scanner',
             'c' : 'Java.Util.Scanner',
             'd' : 'java.util.scanner',
             'answer': 'b'
-        }
+        },
         {
             'question' : 'Which of the following is a post decreement operator?',
             'a' : 'var++;',
@@ -98,7 +98,7 @@ export const mcQuestions = {
             'c' : 'var--;',
             'd' : '++var;()',
             'answer': 'c'
-        }
+        },
         {
             'question' : 'What is the output of the following-\nint x = 6;\nSystem.out.print(++x);\nSystem.out.print(x);\nint y = 6;\nSystem.out.print(y+1);\nSystem.out.print(y);',
             'a' : '7776',
@@ -106,7 +106,7 @@ export const mcQuestions = {
             'c' : '6767',
             'd' : '6667',
             'answer': 'a'
-        }
+        },
         {
             'question' : 'What is the output of the following-\nint x = 7;\nSystem.out.println("value of x is %d" + x);',
             'a' : 'value of x is %dx',
@@ -114,7 +114,7 @@ export const mcQuestions = {
             'c' : 'value of x is 7',
             'd' : 'value of 7 is 7',
             'answer': 'c'
-        }
+        },
         {
             'question' : 'What is the output of the following-\n  double x = Math.floor(-2.3) + Math.ceil(1.01);\n  System.out.println(x);',
             'a' : '-1.0',
@@ -126,7 +126,7 @@ export const mcQuestions = {
     ],
     'Selection Statements': [
         {
-            'question': 'What is the symbol operator for 'NOT'?',
+            'question': "What is the symbol operator for 'NOT'?",
             'a' : ';',
             'b' : '!',
             'c' : '||',
@@ -150,7 +150,7 @@ export const mcQuestions = {
             'answer': 'b'
         },
         {
-            'question': 'What is the symbol operator for ' Exclusive OR'?',
+            'question': "What is the symbol operator for ' Exclusive OR'?",
             'a' : '&',
             'b' : '!',
             'c' : '^',
@@ -164,15 +164,15 @@ export const mcQuestions = {
             'c' : '||',
             'd' : '!',
             'answer': 'a'
-        }
+        },
         {
             'question' : 'How many cases can you have in a switch case?',
-            'a' : 'only 2'
-            'b' : 'just one'
+            'a' : 'only 2',
+            'b' : 'just one',
             'c' : 'depends',
             'd' : 'how many required + default',
             'answer': 'c'
-        }
+        },
         {
             'question' : 'What kind of an expression must a conditional expression be?',
             'a' : 'char',
@@ -180,7 +180,7 @@ export const mcQuestions = {
             'c' : 'int',
             'd' : 'boolean',
             'answer': 'd'
-        }
+        },
         {
             'question' : 'What is the output of the following\nch = switch(x){\ncase 4,8: System.out.println(“Hi”);\n yield i;\ndefault: System.out.println(“Bye”);\n yield 10;\n}',
             'a' : 'Bye',
@@ -188,7 +188,7 @@ export const mcQuestions = {
             'c' : 'Hi',
             'd' : 'Error',
             'answer': 'd'
-        }
+        },
         {
             'question' : 'An else statement must be preceeded by-',
             'a' : 'if',
@@ -196,7 +196,7 @@ export const mcQuestions = {
             'c' : 'else',
             'd' : 'a or b',
             'answer': 'd'
-        }
+        },
         {
             'question' : 'An If-else statement is also called-',
             'a' : 'Control Statements',
@@ -246,15 +246,15 @@ export const mcQuestions = {
             'c' : '1 2 3',
             'd' : 'error',
             'answer': 'a'
-        }
+        },
         {
             'question' : 'The enhanced for-loop was introduced by?',
-            'a' : 'JDK 4'
-            'b' : 'JDK 5'
+            'a' : 'JDK 4',
+            'b' : 'JDK 5',
             'c' : 'JDK 6',
             'd' : 'JDK 7',
             'answer': 'b'
-        }
+        },
         {
             'question' : 'What is the output of the following code?\nint x=10;\ndo\ndo\n{\nSystem.out.print(x + ".");\nx++;\n}while(x < 14)',
             'a' : '10.10.10',
@@ -262,7 +262,7 @@ export const mcQuestions = {
             'c' : '11.12.13',
             'd' : 'Error',
             'answer': 'd'
-        }
+        },
         {
             'question' : 'What is the output of the following code?\nfor(int i=1; i<5; i++)\n{\n    System.out.print(i +":");\n}',
             'a' : '1:2:3:4',
@@ -270,7 +270,7 @@ export const mcQuestions = {
             'c' : '1:2:3:4:5',
             'd' : '12345',
             'answer': 'a'
-        }
+        },
         {
             'question' : 'An enhanced for loop missed __ and __ than a regular for loop.',
             'a' : 'Spped',
@@ -278,7 +278,7 @@ export const mcQuestions = {
             'c' : 'Semicolons, Variables',
             'd' : 'Easiness',
             'answer': 'b'
-        }
+        },
         {
             'question' : 'What is the output of the following code?\nfor(int i=1; i<5; i++)\n    System.out.print(i +":");\n    System.out.print("hi");',
             'a' : '1:hi2:hi3:hi4:hi',
@@ -328,15 +328,15 @@ export const mcQuestions = {
             'c' : 'Both of them',
             'd' : 'None of them',
             'answer': 'c'
-        }
+        },
         {
             'question' : 'What is the output of the code-\npublic static void nPrintln(String msg, int n) {\nfor (int i = 0; i < n; i++)\nSystem.out.println(msg);\n}',
-            'a' : 'Error'
-            'b' : 'Nothing'
+            'a' : 'Error',
+            'b' : 'Nothing',
             'c' : 'Print ABC 4 times',
             'd' : 'Print ABC 5 times',
             'answer': 'd'
-        }
+        },
         {
             'question' : 'Which method would be called-\npublic static double m( double x, double y) //first method\npublic static double m( int x, double y) //second method\ndouble z = m(4, 5.2);',
             'a' : 'First Method',
@@ -344,7 +344,7 @@ export const mcQuestions = {
             'c' : 'Both',
             'd' : 'Error',
             'answer': 'b'
-        }
+        },
         {
             'question' : 'What is the output-/npublic static voidmain(String[] args){\nint x = 0;\nset10(x++);\nSystem.out.printIn(x);\n}\npublic static void set10(int n) {\nn =10;\n}',
             'a' : '0',
@@ -352,7 +352,7 @@ export const mcQuestions = {
             'c' : '10',
             'd' : '11',
             'answer': 'b'
-        }
+        },
         {
             'question' : 'What is the process of defining more than one method in a class differentiated by method signature?',
             'a' : 'Method Powering',
@@ -360,7 +360,7 @@ export const mcQuestions = {
             'c' : 'Private',
             'd' : 'Final',
             'answer': 'b'
-        }
+        },
         {
             'question' : 'Which method can be defined only once in a program?',
             'a' : 'Static',
@@ -410,15 +410,15 @@ export const mcQuestions = {
             'c' : '4321',
             'd' : '1234',
             'answer': 'd'
-        }
+        },
         {
             'question' : 'What is code to find the size of the array "arr"?',
-            'a' : 'arr.length()'
-            'b' : 'arr.size'
+            'a' : 'arr.length()',
+            'b' : 'arr.size',
             'c' : 'arr.size()',
             'd' : 'arr.length',
             'answer': 'd'
-        }
+        },
         {
             'question' : 'Which one of the following is not a function in the Arrays package?',
             'a' : 'equals',
@@ -426,7 +426,7 @@ export const mcQuestions = {
             'c' : 'toString',
             'd' : 'Sort',
             'answer': 'b'
-        }
+        },
         {
             'question' : 'Which are the special symbols used to initialize an array at the time of the declaration itself?',
             'a' : '()',
@@ -434,7 +434,7 @@ export const mcQuestions = {
             'c' : '[]',
             'd' : '{}',
             'answer': 'd'
-        }
+        },
         {
             'question' : 'What is the output of the following code snippet?\nint[] num;\npublic static void main(String args[])\n{\nSystem.out.printIn(num.length);',
             'a' : 'Error',
@@ -442,7 +442,7 @@ export const mcQuestions = {
             'c' : 'null',
             'd' : 'num',
             'answer': 'a'
-        }
+        },
         {
             'question' : 'What is the output of the following code snippet?\nint[] m = {5,75,90,8};\nSystem.out.println(m.length + ":" + m[1]);',
             'a' : '4:75',
@@ -492,7 +492,7 @@ export const mcQuestions = {
             'c' : 'Modularization',
             'd' : 'None of the above',
             'answer': 'd'
-        }
+        },
         {
             'question': 'What will automatically collects the space if the object is not referenced by any variable?',
             'a' : 'JVM',
@@ -574,15 +574,15 @@ export const mcQuestions = {
             'c' : 'Single',
             'd' : 'Double',
             'answer': 'c'
-        }
+        },
         {
             'question' : 'Which one is the subclass and the superclass?\nclass B\n{\n void show() {};\n}\nclass A\nvoid hide() {}\n}',
-            'a' : 'A is super b'
-            'b' : 'B is super c'
+            'a' : 'A is super b',
+            'b' : 'B is super c',
             'c' : 'Both are super',
             'd' : 'Neither',
             'answer': 'd'
-        }
+        },
         {
             'question' : 'Which of the following is not a default modifier?',
             'a' : 'Safe',
@@ -590,7 +590,7 @@ export const mcQuestions = {
             'c' : 'Public',
             'd' : 'Private',
             'answer': 'a'
-        }
+        },
         {
             'question' : 'Which of the following is a function in java.lang.Object?',
             'a' : 'check',
@@ -598,7 +598,7 @@ export const mcQuestions = {
             'c' : 'equal',
             'd' : 'toString',
             'answer': 'd'
-        }
+        },
         {
             'question' : 'What class cannot be extended?',
             'a' : 'object class',
@@ -606,7 +606,7 @@ export const mcQuestions = {
             'c' : 'final class',
             'd' : 'superclass',
             'answer': 'c'
-        }
+        },
         {
             'question' : 'What is the output-\nclass A {\n public int x;\n private int y;\n}\n\nclass B extends A {\n public void display() {\n super.y = super.x + 1;\n System.out.printIn(super.x+super.y);\n }\n}\n\nclass Q {\n public static void main(String args[]) {\n B b = new B();\n b.display();\n}\n}',
             'a' : '0',
@@ -740,15 +740,15 @@ export const mcQuestions = {
             'c' : 'handle',
             'd' : 'try-catch',
             'answer': 'd'
-        }
+        },
         {
             'question' : 'What is the other option instead of exception handling?',
-            'a' : 'No other option'
-            'b' : 'Defensive Programming'
+            'a' : 'No other option',
+            'b' : 'Defensive Programming',
             'c' : 'Error-handled code',
             'd' : 'Error Propagating',
             'answer': 'b'
-        }
+        },
         {
             'question' : 'What keyword is used for running a block of code regardless of try or catch? ',
             'a' : 'finally',
@@ -756,7 +756,7 @@ export const mcQuestions = {
             'c' : 'run',
             'd' : 'code',
             'answer': 'a'
-        }
+        },
         {
             'question' : 'Which of the following package Exception class exist?',
             'a' : 'java.file',
@@ -764,7 +764,7 @@ export const mcQuestions = {
             'c' : 'java.io',
             'd' : 'java.lang',
             'answer': 'd'
-        }
+        },
         {
             'question' : 'Which exception is thrown when divide by zero statement executes?',
             'a' : 'NumberFormatException',
@@ -772,7 +772,7 @@ export const mcQuestions = {
             'c' : 'ArithmeticException',
             'd' : 'IOException',
             'answer': 'c'
-        }
+        },
         {
             'question' : 'The throw keyword is used-',
             'a' : 'generate exception programmatically',
@@ -822,15 +822,15 @@ export const mcQuestions = {
             'c' : 'FileInputReader',
             'd' : 'EfficientReader',
             'answer': 'b'
-        }
+        },
         {
             'question' : 'Which method can you use to get an estimate of the number of remaining bytes in a file using InputStream?',
-            'a' : 'size()'
-            'b' : 'available()'
+            'a' : 'size()',
+            'b' : 'available()',
             'c' : 'length()',
             'd' : 'getSize()',
             'answer': 'b'
-        }
+        },
         {
             'question' : 'Which function returns true if the file or the directory exists?',
             'a' : 'ifExists',
@@ -838,7 +838,7 @@ export const mcQuestions = {
             'c' : 'isExist',
             'd' : 'exists()',
             'answer': 'a'
-        }
+        },
         {
             'question' : 'What is the output of the following?\nPrintWriter out = new PrintWriter ("c:/temp.tx”);\nout.printf (("x:%3.3f ",32.32);\nout .printf (("%6b ", (1>2));\nout.printf (("%6s ", "Java”)\nout.close();',
             'a' : 'x:32.320 false Java',
@@ -846,7 +846,7 @@ export const mcQuestions = {
             'c' : 'x:32.320 true Java',
             'd' : 'x:32.320 1<2 Java',
             'answer': 'a'
-        }
+        },
         {
             'question' : 'All files are stored in what format?',
             'a' : 'string',
@@ -854,7 +854,7 @@ export const mcQuestions = {
             'c' : 'binary',
             'd' : 'text',
             'answer': 'c'
-        }
+        },
         {
             'question' : 'Which stream reads primitives and objects?',
             'a' : 'ObjectInputStream',
@@ -946,15 +946,15 @@ export const mcQuestions = {
             'c' : 'top',
             'd' : 'first',
             'answer': 'a'
-        }
+        },
         {
             'question' : 'The most efficient data structure is _____.',
-            'a' : 'structure'
-            'b' : 'class'
+            'a' : 'structure',
+            'b' : 'class',
             'c' : 'array',
             'd' : 'arrayList',
             'answer': 'c'
-        }
+        },
         {
             'question' : 'What is the time complexity of this code?\nfor (int i = 0; i < N; i++)\nlinkedlist.get(i);',
             'a' : 'O(N)',
@@ -962,7 +962,7 @@ export const mcQuestions = {
             'c' : '0(1)',
             'd' : 'O(N^3)',
             'answer': 'b'
-        }
+        },
         {
             'question' : 'The ______ interface can be used to compare objects of a class, similar to the Comparable interface.',
             'a' : 'compareObjects',
@@ -970,7 +970,7 @@ export const mcQuestions = {
             'c' : 'Comparator',
             'd' : 'Compare',
             'answer': 'c'
-        }
+        },
         {
             'question' : 'A collection of elements stored using key/value pairs is called a _________.',
             'a' : 'collection',
@@ -978,7 +978,7 @@ export const mcQuestions = {
             'c' : 'map',
             'd' : 'set',
             'answer': 'c'
-        }
+        },
         {
             'question' : 'Which of the following is not a method in Collection?',
             'a' : 'addEverything()',

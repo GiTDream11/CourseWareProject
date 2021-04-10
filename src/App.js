@@ -11,25 +11,21 @@ import { Test } from './Test';
 import { Home } from './Home';
 import { Nav, Navbar } from 'react-bootstrap';
 import { MultiChoice } from './MultiChoice';
+import { TrueFalse } from './TrueFalse';
 import { MainConcept } from './MainConcept';
+import { LongQuestion } from './LongQuestion';
 
 function App() {
   return (
     <Router>
       {/* Navbar */}
 
-        <Navbar sticky="top">
-          <Nav.Link>
-            <Link to="/test">Test</Link>
-          </Nav.Link>
+        <Navbar bg="light" sticky="top">
           <Nav.Link>
             <Link to="/">Home</Link>
           </Nav.Link>
           <Nav.Link>
-            <Link to="/multichoice">MultiChoice</Link>
-          </Nav.Link>
-          <Nav.Link>
-            <Link to="/mainconcept">Main Concepts</Link>
+            <Link to="/longQuestions">Long Questions</Link>
           </Nav.Link>
         </Navbar>
 
@@ -37,13 +33,16 @@ function App() {
 
       {/* Switch Component */}
       <Switch>
-        <Route path="/test">
-          <Test />
+        <Route path="/longQuestions">
+          <LongQuestion />
         </Route>
         <Route path="/multichoice/:id">
           <MultiChoice />
         </Route>
-        <Route path="/mainconcept">
+        <Route path="/truefalse/:id">
+          <TrueFalse />
+        </Route>
+        <Route path="/mainconcept/:id">
           <MainConcept />
         </Route>
         <Route path="/">

@@ -10,9 +10,5 @@ export const activities = [
     {
         "Title" : "True or False",
         "url" : "truefalse"
-    },
-    {
-        "Title" : "Coding Questions",
-        "url" : "codingquestions"
     }
 ];
